@@ -13,7 +13,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -35,4 +35,73 @@ fieldset {
 ul,
 ol {
   list-style: none;
+}
+
+.content {
+  display: flex;
+  padding: 133px 30px;
+}
+.result {
+  padding-top: 78px;
+  margin-right: 30px;
+}
+.result__video {
+  width: 711px;
+  height: 386px;
+}
+.search-form {
+  display: flex;
+}
+.search-form__fieldset {
+  border: none;
+}
+.search-form__textfield {
+  background-color: transparent;
+}
+
+.search-form__fieldset-title {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
+}
+
+.title {
+  padding-bottom: 26px;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 94%;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
+  font-family: Oswald;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 94%; /* 70.5px */
+  text-transform: uppercase;
+}
+
+.content__list {
+  overflow-y: scroll;
+  width: 400px;
+  height: 300px;
+}
+.content__video-card {
+  display: flex;
+}
+
+.more-button {
+  display: inline-block;
 }
